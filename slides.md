@@ -341,11 +341,13 @@ title: Side Title Layout (Another)
 <Admonition title="Problem" color='blue-light' width="100%">
 Not everybody has open ports on the internet. Most routers use NAT to use a single public ip for multiple clients. Also blocking incoming traffic.
 </Admonition>
-<div class="pt-3"></div>
+<div class="pt-5"></div>
 </v-click>
 
-
 <v-click at='2'>
+
+We need [NAT traversal](https://tailscale.com/blog/how-nat-traversal-works) or relay.
+
 
 | STUN                      | TURN                      |
 |----------------------------|------------------------------|
@@ -355,16 +357,15 @@ Not everybody has open ports on the internet. Most routers use NAT to use a sing
 
 </v-click>
 
+<div class="pt-14"></div>
+
 <v-click at='3'>
 
-Candidate example:
 ```
 candidate:2 1 UDP 1694498815 192.0.2.3 45664 typ srflx raddr
    10.0.1.1 rport 8998
 ```
 <span class="font-size-sm ns-c-cite mt-4">
-
-\* Both [STUN](https://github.com/pradt2/always-online-stun) and [TURN](https://www.metered.ca/tools/openrelay/) are actual servers
 
 </span>
 </v-click>
