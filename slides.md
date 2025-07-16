@@ -357,7 +357,7 @@ We need [NAT traversal](https://tailscale.com/blog/how-nat-traversal-works) or r
 
 </v-click>
 
-<div class="pt-14"></div>
+<div class="pt-[40px]"></div>
 
 <v-click at='3'>
 
