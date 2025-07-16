@@ -341,7 +341,7 @@ title: Side Title Layout (Another)
 <Admonition title="Problem" color='blue-light' width="100%">
 Not everybody has open ports on the internet. Most routers use NAT to use a single public ip for multiple clients. Also blocking incoming traffic.
 </Admonition>
-<div class="pt-5"></div>
+<div class="pt-[15px]"></div>
 </v-click>
 
 <v-click at='2'>
