@@ -1,4 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Presentation of WebRTC signaling and inner workings
 
 To start the slide show:
 
@@ -8,4 +8,6 @@ To start the slide show:
 
 Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## View presentation deployed
+
+https://slidev-webrtc.pages.dev/
