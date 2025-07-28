@@ -1,22 +1,15 @@
 ---
-# You can also start simply with 'default'
 theme: neversink
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
 title: Welcome to Slidev
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 
 layout: intro
@@ -65,8 +58,8 @@ color: emerald-light
 
 - Save bandwidth for your application
 - Have more resiliency
-- Only way to udp in the browser (low latency)
-- Encrypted by default
+- Only way to [udp](https://en.wikipedia.org/wiki/User_Datagram_Protocol) in the browser (low latency)
+- [Encrypted by default](https://webrtcforthecurious.com/docs/04-securing/)
 - Native in Chrome, Firefox, Safari, Edge.
 
 </v-clicks>
@@ -214,7 +207,7 @@ layout: default
 <span class="ns-c-cite" style="display:block; width:fit-content;margin-left:auto; margin-right:none;">[Mozilla docs](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling#the_signaling_server)</span>
 
 ### Responsibilites of signaling server:
-- <span v-mark.underline.orange>Transfer Session Description Protocol, SDP</span> values
+- <span v-mark.underline.orange>Transfer Session Description Protocol, [SDP](https://datatracker.ietf.org/doc/html/rfc4566)</span> values
   - What media types are supported (audio, video, data)
   - Which codecs to use (VP8, Opus, etc.)
 - Transfer <span v-mark.underline.orange>Candidates</span> between peers
@@ -437,12 +430,18 @@ color: teal
 # Demo time
 
 :: left ::
+
 https://flutter-webrtc.pages.dev/
 <QRCode value="https://flutter-webrtc.pages.dev/" :size="200" render-as="svg"/>
+
+
+Source: <br>
+https://github.com/vkhobor/webrtc_test
 
 :: right ::
 Android apk
 <QRCode value="https://drive.google.com/file/d/1gtn5VghMZoEh_dFA1f_1OwR3rxTdBFC4/view?usp=drivesdk" :size="200" render-as="svg"/>
+
 
 ---
 layout: two-cols-title
@@ -466,6 +465,10 @@ color: teal-light
     - Public mqtt servers
 
 :: right ::
+
+#### The slides are available here
+https://github.com/vkhobor/slidev-webrtc
+
 <span class="ns-c-cite">
 
 #### References
